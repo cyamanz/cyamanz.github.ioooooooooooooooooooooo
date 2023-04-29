@@ -43,7 +43,18 @@ body.dark {
   font-family: 'Nunito Sans';
   font-size: 20px;
   text-align: center;
-
+}
+.gamescategory {
+  background-color: #1f2124;
+  border-radius:20px;
+  margin: auto;
+  width: 200px;
+  height: 55px;
+  box-shadow: 0px 5px 10px 0px #2e2e2e;
+  font-family: 'Lilita One';
+  font-size: 40px;
+  text-align: center;
+  color: white;
 }
 #iframe{
   width: 90%;
@@ -124,6 +135,72 @@ h1{
   transform: translateX(24px);
 }
 
+.gameinfo{
+  color: white;
+  text-align: center;
+  padding: 3px;
+  font-size: 10px;
+  font-family: 'Nunito Sans';
+}
+.gameimage{
+  width: 150px;
+  height: 150px;
+  display:inline-block; 
+  padding:0px; 
+  margin:0px;
+  border-radius: 20px;
+}
+.gamecard{
+  width: 170px;
+  height: 270px;
+  background-color: #2e2e2e;
+  padding: 10px; 
+  margin: 10px;
+  border-radius: 20px;
+  transition: transform .5s;
+  justify-content: left;
+  float: left;
+  box-shadow: 0px 5px 10px 0px #2e2e2e,  0px 0px 1px 0px #2e2e2e;
+  
+}
+.gamecard:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px 0px #2e2e2e, 0px 0px 3px 0px #2e2e2e;
+}
+.gamename{
+  font-size: 20px;
+  font-family: 'Nunito Sans';
+}
+.gamecontainer{
+  display: flex;
+  flex-direction: row;
+  order: 0;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}  
+a:link{
+  text-decoration: none;
+}
+#votes {
+  display: flex;
+  align-items: center;
+}
+#thumbs-up, #thumbs-down {
+  cursor: pointer;
+  margin-right: 10px;
+}
+#thumbs-up i, #thumbs-down i {
+  font-size: 2em;
+}
+#fullscreen-button{
+  bottom: -430px;
+  right: -1300px;
+}
 .search-container {
   display: flex;
   flex-direction: row;
@@ -236,6 +313,40 @@ input:focus {
   color: black;
 }
 
+#flbutton {
+  position: fixed;
+  bottom: 20px;
+  left: 6px;
 }
+
+#closeButton {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 69420;
+  width: 40px;
+  height: 40px;
+}
+
+#appFrame {
+  border: none;
+  position: absolute;
+  top: 0;
+  z-index: 6969;
+}
+
+#frameCloser {
+  color: white;
+  top: 15px;
+  right: 15px;
+  position: absolute;
+  padding: 10px;
+  background-clip: border-box;
+  background-color: #36393e;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 10px;
+}
+
 
 
