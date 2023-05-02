@@ -106,3 +106,117 @@
         <div class="homescreendiv"><button onclick="openBadTimeSimulator()"><img loading="lazy" class="gameicon" src="Game-icons/badtimesimulator.jpg"><p>Bad Time Simulator</p></button></div>
     </div>
 </div>
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>Featured Games</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			padding: 50px 20px;
+		}
+
+		.game {
+			width: 300px;
+			height: 400px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			margin: 20px;
+			overflow: hidden;
+			position: relative;
+			border-radius: 10px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.game:hover {
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+		}
+
+		.game img {
+			width: 100%;
+			height: 75%;
+			object-fit: cover;
+		}
+
+		.game .overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+			color: #fff;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			opacity: 0;
+			transition: opacity 0.3s ease-in-out;
+			text-align: center;
+		}
+
+		.game:hover .overlay {
+			opacity: 1;
+		}
+
+		.game h3 {
+			margin: 0;
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+		}
+
+		.game p {
+			margin: 0;
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		.game a {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-decoration: none;
+			font-weight: bold;
+			text-transform: uppercase;
+			transition: background-color 0.3s ease-in-out;
+		}
+
+		.game a:hover {
+			background-color: #3E8E41;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="game">
+			<img src="https://via.placeholder.com/300x225.png?text=Game+Image" alt="Game Image">
+			<div class="overlay">
+				<h3>Game Title</h3>
+				<p>Description of the game goes here. This can be a brief summary of the gameplay or storyline.</p>
+				<a href="#">Play Now</a>
+			</div>
+		</div>
+
+		<div class="game">
+			<img src="https://via.placeholder.com/300x225.png?text=Game+Image" alt="Game Image">
+			<div class
+
