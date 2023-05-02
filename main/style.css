@@ -149,3 +149,6 @@ h1 {
   text-align: center;
   /*margin-right: 12px;*/
 }
+  body {
+  background-color: black;
+}
