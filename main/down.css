@@ -1,29 +1,4 @@
-.divfooter {
-display: flex;
-align-items: center;
-}
 
-.divfooter a {
-padding: 15px;
-padding-left: 10px;
-padding-right: 10px;
-}
-
-.divfooter ul {
-flex-grow: 1;
-text-align: end;
-}
-
-ul img {
-width: 40px;
-}
-
-.email {
-color: white;
-margin-left: 10px;
-font-size: 20px;
-font-family: Arial, Helvetica, sans-serif;
-}
 @font-face {
   font-family: Typographica;
   src: url(Fonts/typographica.ttf);
