@@ -1,0 +1,37 @@
+footer {
+  background-color: rgb(0, 119, 255);
+  padding: 0 0;
+
+}
+
+footer li {
+  padding: 0 1%;
+}
+
+.divfooter {
+  display: flex;
+  align-items: center;
+}
+
+.divfooter a {
+  padding: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.divfooter ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+ul img {
+  width: 40px;
+}
+
+.email {
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
